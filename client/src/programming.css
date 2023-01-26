@@ -1,0 +1,156 @@
+/************************************* Programming Mode *************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Custom Scroll Bar  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: white;
+    color: darkblue;
+}
+
+::selection {
+    background: white;
+    color: darkblue;
+}
+
+
+/********************* CPP **********************/
+
+
+.editor-navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.left-editor-navbar {
+    color: white;
+    background-color: #212121;
+    padding: 6px 12px 6px 12px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: -1px;
+}
+
+.css-14el2xx-placeholder, .css-tj5bde-Svg {
+    color: white !important;
+}
+
+.programming-footer {
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: grey; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-footer p {
+    padding: 7px 14px 7px 10px;
+    font-size: medium;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    background: #2ecc71;
+    /* Success  #e74c3c for danger*/
+    border-radius: 5px;
+    color: white;
+}
+
+.left-footer p:hover {
+    background: #29ad60;
+}
+
+.right-footer .mode p {
+    padding: 7px 10px 7px 10px;
+    font-size: medium;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+    background: #212121;
+    /* Success  #e74c3c for danger*/
+    border-radius: 5px;
+    color: white;
+}
+
+.right-footer .mode p:hover {
+    background: #212121;
+    opacity: 0.8;
+}
+
+.err-msg {
+    word-wrap: break-word;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    white-space: pre;
+}
+
+
+#input-textarea {
+    resize: none;
+    word-wrap: break-word;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 8rem;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+#output-textarea {
+    resize: none;
+    word-wrap: break-word;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 8rem;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    background-color: none;
+}
+
+#input-output-column {
+    color: white;
+    font-size: 1.4rem;
+}
